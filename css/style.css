@@ -1,0 +1,157 @@
+/*Import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+/*Start navigation
+.header_area.main-menu.navbar.navbar-brand{
+	padding: 0 2rem 0 5rem;
+}
+*/
+.main-menu{
+	background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.navbar-brand{
+	padding: 0 2rem 0 2rem;
+}
+.navbar{
+	padding-right: 8rem;
+}
+.nav-link{
+	font-family: "Roboto";
+	font-weight: 500;
+}
+.nav-item.active a{
+	background: white;
+	font-weight: bold;
+	color: #050;
+}
+h5{
+	font-weight: bold;
+	color: #050;
+}
+.nav-item a:hover{
+	background: white;
+	font-weight: bold;
+	color: #050;
+}
+.nav-item a{
+	font-weight: bold;
+	color: #050;
+}
+
+/*End Navigation*/
+
+/*Start Banner Area*/
+.site-title h3{
+	padding-top: 15%;
+	font-weight:500;
+}
+.site-title h1{
+	font-size: 3rem;
+	font-weight:700;
+}
+.title-text{
+	font-family: "Roboto"
+}
+.button{
+	padding: 1rem 2.2rem;
+	border-radius: 4px;
+	position: relative;
+	border: 3px;
+	font-weight: 500;
+}
+.primary-button{
+	background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+.primary-button:hover{
+	background: whitesmoke;
+	color: #050;
+}
+.secondry-button{
+	background: white;
+}
+.secondry-button:hover{
+	background: whitesmoke;
+	color: #050;
+}
+/*End Banner Area*/
+
+/*Start about me area*/
+
+.about-area{
+	margin-top: 2rem;
+}
+.about-title h2{
+	padding-top: 20%;
+}
+/*End about me area*/
+
+/*start courses area*/
+.courses-area{
+	margin-top: 2rem;
+}
+/*.courses-area a{
+	background: #DAF;
+}*/
+.course-list-section{
+	padding-top: 5%;
+}
+.courses-area_col1{
+	padding-top: 15%;
+}
+.courses-area a img{
+	padding-right: 1rem;
+}
+.courses-area a:hover img{
+	transform:scale(1.2);
+	filter:drop-shadow(8px 8px 10px gray);
+	brightness:(0.15);
+}
+.img-row{
+	padding-top: 2rem;
+}
+.course-img{
+	padding: 2rem;
+}
+
+/*Footer area started*/
+.footer-area{
+	background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
+}
+
+.footer-area .social h5{
+    font: normal 500 23px/ 30px Roboto;
+    color: #050;
+}
+.footer-area .social i{
+    font-size:30px;
+    padding: 2rem;
+    color: #050;
+}
+.footer-area .social a > i{
+    font-size:30px;
+    padding: 2rem;
+}
+.card{
+	margin-right: 2rem;
+	min-height: 100%;
+}
+.card .btn{
+	color:#050;
+	font-weight: bold;
+	background: linear-gradient(to top, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border:solid;
+	border-color: #050;
+}
+
+/*End courses area*/
